@@ -1,0 +1,11 @@
+machine:
+  python:
+    version: 2.7.10
+
+dependencies:
+  post:
+    - pip install -U -r numpy
+
+test:
+  override:
+    - pip install -U -r dev-requirements.txt
