@@ -1,0 +1,11 @@
+machine:
+  python:
+    version: 2.7.10
+
+dependencies:
+  post:
+    - pip install -U -r numpy
+
+test:
+  override:
+    - pytest one_hot_encoding/test-one-hot-encoding.py
