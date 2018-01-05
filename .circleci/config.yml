@@ -1,13 +1,17 @@
 version: 2
 
-machine:
-  post:
-    - pyenv global 2.7.10
+jobs:
+  build:
+    working_directory: ~/One-Hot-Encoding-Example
 
-dependencies:
-  pre:
-    - pip install numpy
+  machine:
+    post:
+      - pyenv global 2.7.10
 
-test:
-  override:
-    - pytest test-one-hot-encoding.py
+  dependencies:
+    pre:
+      - pip install numpy
+
+  test:
+    override:
+      - pytest test-one-hot-encoding.py
