@@ -10,6 +10,6 @@ notifications:
   email:
     on_failure: never
 
-script: nosetests --with-coverage
+script: nosetests --with-coverage --cover-package=one_hot_encoding
 
 after_success: coveralls
