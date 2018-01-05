@@ -10,6 +10,6 @@ notifications:
   email:
     on_failure: never
 
-script: nosetests --with-coverage --cover-package=bucketlist
+script: nosetests --with-coverage
 
 after_success: coveralls
