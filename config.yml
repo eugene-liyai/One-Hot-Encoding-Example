@@ -8,4 +8,4 @@ dependencies:
 
 test:
   override:
-    - pytest test-one-hot-encoding.py
+    - pip install -U -r dev-requirements.txt
