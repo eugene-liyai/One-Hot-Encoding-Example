@@ -26,6 +26,8 @@ The link will guide you create and activate the virtual environment
     ```
     $ pip install -r requirements.txt
     ```
+## Background Information
+Adapted from [Jason Brownlee](https://machinelearningmastery.com/how-to-one-hot-encode-sequence-data-in-python/) One Hot Encoding tutorial
 
 ## MIT License
 
