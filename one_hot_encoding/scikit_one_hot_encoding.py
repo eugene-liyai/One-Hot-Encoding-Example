@@ -14,3 +14,8 @@ integer_encoded = label_encoding.fit_transform(values)
 print(integer_encoded)
 
 # binary encode
+onehot_encoding = OneHotEncoder(sparse=False)
+integer_encoded = integer_encoded.reshape(len(integer_encoded), 1)
+onehot_encoded = onehot_encoding.fit_transform(integer_encoded)
+print(onehot_encoded)
+
