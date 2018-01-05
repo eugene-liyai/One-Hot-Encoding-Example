@@ -25,3 +25,5 @@ for value in integer_encode:
 print(onehot_encode)
 
 # invert encoding
+inverted = int_to_char[argmax(onehot_encode[0])]
+print(inverted)
