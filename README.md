@@ -2,6 +2,13 @@
 # One-Hot-Encoding-Example
 A simple representation of one-hot encoding
 
+# Input Sequence
+The input sequence that we will encode is:
+```
+hello world
+```
+In this example data values are lower case alphabets and the space.
+
 ## MIT License
 
 Copyright (c) 2018 eugene-liyai
