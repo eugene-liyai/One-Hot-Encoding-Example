@@ -1,15 +1,31 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![CircleCI](https://circleci.com/gh/eugene-liyai/One-Hot-Encoding-Example.svg?style=svg)](https://circleci.com/gh/eugene-liyai/One-Hot-Encoding-Example)
 [![Coverage Status](https://coveralls.io/repos/github/eugene-liyai/One-Hot-Encoding-Example/badge.svg)](https://coveralls.io/github/eugene-liyai/One-Hot-Encoding-Example)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/129c77b9698c4b36919bc94475babc83)](https://www.codacy.com/app/eugene-liyai/One-Hot-Encoding-Example?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=eugene-liyai/One-Hot-Encoding-Example&amp;utm_campaign=Badge_Grade)
 # One-Hot-Encoding-Example
 A simple representation of one-hot encoding
 
-# Input Sequence
+## Input Sequence
 The input sequence that we will encode is:
 ```
 hello world
 ```
 In this example data values are lower case alphabets and the space.
+
+## Installing and running application
+
+- clone application:
+    ```
+    https://github.com/eugene-liyai/One-Hot-Encoding-Example.git
+    ```
+- Create virtual environment:
+    > Click on [this guide](http://docs.python-guide.org/en/latest/dev/virtualenvs/). 
+The link will guide you create and activate the virtual environment
+
+- Install the required packages:
+    ```
+    $ pip install -r requirements.txt
+    ```
 
 ## MIT License
 
