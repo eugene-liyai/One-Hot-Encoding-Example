@@ -2,10 +2,14 @@
 #
 # Check https://circleci.com/docs/2.0/language-python/ for more details
 #
-version: 2
-# run tests!
-- run:
-    name: run tests
-    command: |
-      . venv/bin/activate
-      python manage.py test
+machine:
+  post:
+    - pyenv global 2.7.10
+
+dependencies:
+  pre:
+    - pip install numpy
+
+test:
+  override:
+    - pytest test-one-hot-encoding.py
