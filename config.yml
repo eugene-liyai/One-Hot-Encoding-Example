@@ -3,7 +3,7 @@ machine:
     version: 2.7.10
 
 dependencies:
-  post:
+  pre:
     - pip install numpy
 
 test:
