@@ -25,3 +25,6 @@ class Scikit_One_Hot_Encoding(TestCase):
 
     def test_onehot_encoded(self):
         self.assertEqual(numpy.ndarray, type(onehot_encoded))
+
+    def test_inverted_first(self):
+            self.assertEqual(numpy.ndarray, type(inverted_first))
