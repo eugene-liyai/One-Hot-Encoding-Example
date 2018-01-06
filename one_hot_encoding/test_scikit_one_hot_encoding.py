@@ -22,3 +22,6 @@ class Scikit_One_Hot_Encoding(TestCase):
 
     def test_onehot_encoding(self):
         self.assertEqual(OneHotEncoder, type(onehot_encoding))
+
+    def test_onehot_encoded(self):
+        self.assertEqual(numpy.ndarray, type(onehot_encoded))
